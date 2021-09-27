@@ -75,6 +75,25 @@ main {
   display: flex;
   flex-direction: row;
 }
-img.inner_artist {
+img.inner_artistimg {
   width: 30vw;
+  grid-column-start: 1;
+  grid-column-end: 10;
+}
+
+.artist_paragraph {
+  grid-column-start: 12;
+  grid-column-end: 20;
+}
+
+.title_artist {
+  grid-column-start: 11;
+  grid-column-end: 20;
+  color: black;
+}
+
+.artist_button {
+  background-color: cadetblue;
+  grid-column-start: 11;
+  grid-column-end: 12;
 }
